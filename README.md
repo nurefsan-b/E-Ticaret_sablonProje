@@ -64,7 +64,7 @@ FSLightbox
 <img width="1899" height="685" alt="Ekran görüntüsü 2025-09-07 233951" src="https://github.com/user-attachments/assets/0feb0523-5c61-42ef-8aed-8ae6629f792d" />
 <img width="1900" height="718" alt="Ekran görüntüsü 2025-09-07 234408" src="https://github.com/user-attachments/assets/7437e609-0237-459c-951b-71c499693191" />
 <img width="1896" height="711" alt="Ekran görüntüsü 2025-09-07 234232" src="https://github.com/user-attachments/assets/45c7671a-781b-4162-9335-c6c29700e73f" />
-<img width="1896" height="711" alt="Ekran görüntüsü 2025-09-07 234232" src="https://github.com/user-attachments/assets/7a288792-45cd-41e0-a6b0-147f76eb669e" />
+<img width="1895" height="835" alt="Ekran görüntüsü 2025-09-07 234436" src="https://github.com/user-attachments/assets/ff2a34e4-0417-43fa-ad02-ca88e8f39a13" />
 
 ⚙️ Kurulum ve Çalıştırma
 
@@ -72,7 +72,7 @@ Bu projeyi bilgisayarına klonla:
 
 git clone https://github.com/kullaniciadi/e-ticaret-projesi.git
 
-fslightbox.js kurup projene dahil et
+Fslightbox.js kurup projene dahil et
 
 Proje klasörünü aç:
 
