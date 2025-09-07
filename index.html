@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>E-Ticaret</title>
+</head>
+<body class="bg-light">
+    <header>
+        <section>
+            <section class="top-bar">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2 col-sm-4">
+                            <img src="img/Flo.png" height="100px" alt="">
+                            <a href="index.html" class="navbar-brand">E-Ticaret</a>
+                        </div>
+                        <div class="col-lg-5 col-sm-8 order-lg-last">
+                            <div >
+                                <a href="#" class="btn btn-light">
+                                    <i class="fa fa-user"></i>
+                                    <span>Hesabım</span>
+                                </a>
+                                <a href="#" class="btn btn-light">
+                                    <i class="fa fa-heart"></i>
+                                    <span>Listem</span>
+                                </a>
+                                <a href="shopping-cart.html" class="btn btn-light">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>Sepetim</span>
+                                </a>
+                            </div>
+                        </div>
+                          <div class="col-lg-5">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Ürün Arayın...">
+                                    <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+        <div class="container">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ps-0">Spor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Giyim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Çanta&Aksesuar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ayakkabı</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Kadın</a></li>
+                            <li><a href="#" class="dropdown-item">Erkek</a></li>
+                            <li><a href="#" class="dropdown-item">Çocuk</a></li>
+                            <li><a href="#" class="dropdown-item">Spor</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <section class="pt-3">
+        <div class="container">
+            <div class="card">
+                <div class="row p-1 p-lg-2 gx-1">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <!--menu-->
+                    <nav class="nav nav-pills flex-column flex-nowrap overflow-auto ">
+                        <a href="#" class="nav-link active bg-primary">Ayakkabı</a>
+                        <a href="#" class="nav-link text-secondary">Spor</a>
+                        <a href="#" class="nav-link text-secondary">Giyim</a>
+                        <a href="#" class="nav-link text-secondary">Çanta&Aksesuar</a>
+                    </nav>
+
+                </div>
+                <div class="col-lg-9">
+                    <!--sidebar-->
+                    <div id="slider" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Kampanya1.png" alt="slider 1" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Kampanya2.png" alt="slider 2" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Kampanya3.png" alt="slider 3" class="d-block w-100">
+                            </div>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#slider" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                        <button type="button" class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button type="button" class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section class="py-3"></section>
+    <section class="pt-3">
+        <div class="container">
+            <h3 class="h4 mb-1 mb-lg-3">Tek Fiyat</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                    <div class="card shadow">
+                        <div class="img-wrap">
+                            <span class="badge bg-success">İndirim</span>
+                            <img src="img/ayakkabı1.jpg" alt="ürün1" class="card-img-top">
+                        </div>
+                        <div class="border-top info-wrap">
+                            <a href="#" class="float-end btn btn-light">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">Sade beyaz şık ayakkabı</a>
+                            <div class="price-wrap">
+                                <del class="price">2799 ₺</del>
+                                <span class="price-discount">1999 ₺</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                    <div class="card shadow">
+                        <div class="img-wrap">
+                            <span class="badge bg-success">İndirim</span>
+                            <img src="img/ayakkabı6.jpg" alt="ürün1" class="card-img-top">
+                        </div>
+                        <div class="border-top info-wrap">
+                            <a href="#" class="float-end btn btn-light">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">Sade beyaz şık ayakkabı</a>
+                            <div class="price-wrap">
+                                <del class="price">2399 ₺</del>
+                                <span class="price-discount">1999 ₺</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                    <div class="card shadow">
+                        <div class="img-wrap">
+                            <span class="badge bg-success">İndirim</span>
+                            <img src="img/ayakkabı3.jpg" alt="ürün1" class="card-img-top">
+                        </div>
+                        <div class="border-top info-wrap">
+                            <a href="#" class="float-end btn btn-light">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">Sade beyaz şık ayakkabı</a>
+                            <div class="price-wrap">
+                                <del class="price">2499 ₺</del>
+                                <span class="price-discount">1999 ₺</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                    <div class="card shadow">
+                        <div class="img-wrap">
+                            <span class="badge bg-success">İndirim</span>
+                            <img src="img/ayakkabı4.jpg" alt="ürün1" class="card-img-top">
+                        </div>
+                        <div class="border-top info-wrap">
+                            <a href="#" class="float-end btn btn-light">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">Sade beyaz şık ayakkabı</a>
+                            <div class="price-wrap">
+                                <del class="price">2229 ₺</del>
+                                <span class="price-discount">1999 ₺</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-3 py-4 bg-primary">
+        <div class="container">
+            <div class="row gy-3">
+                 <div class="col-md-6 col-lg-4">
+                     <form>
+                        <div class="input-group">
+                         <input type="email" class="form-control" placeholder="E-posta adresinizi girin">
+                         <button type="button" class="btn btn-outline-warning">Abone Ol</button>
+                         </div>
+                    </form>
+                </div>
+
+                 <div class="col-md-6 col-lg-8">
+                     <nav class="text-center text-md-end">
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fa-brands fa-instagram"></i>
+                             </a>
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fa-brands fa-linkedin"></i>
+                             </a>
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </nav>
+                </div>
+                <div class="col-12">
+                    <p class="text-center text-white mb-0">
+                      © 2025 E-Ticaret - Tüm Hakları Saklıdır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
